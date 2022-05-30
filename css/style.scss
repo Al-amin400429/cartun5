@@ -1,0 +1,148 @@
+body{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.face{
+    position: relative;
+    margin-right: 200px;
+    
+  
+    .head{
+        width:190px;
+        height:190px;
+        border:6px solid #ccc;
+        border-radius:50%;
+        position: absolute;
+        transition:1s all ease;
+        &:hover{
+            background: gray;
+        }
+       
+       
+        .eye1{
+            height:35px;
+            width:35px;
+            border:3px solid #ccc;
+            position: absolute;
+            border-radius:50%;
+            margin-left: 30px;
+            margin-top: 45px;
+            // position: relative;
+            transition:0.5s all ease;
+            &:hover{
+                background:red;
+                padding:1px;
+            }
+            .ball1{
+                width:12px;
+                height:12px;
+                background: #000;
+                position: absolute;
+                border-radius:50%;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                margin:auto;
+                transition:0.5s all ease;
+                &:hover{
+                    background:chartreuse;
+                }
+
+            }
+
+        }
+        .eye2{
+            height:35px;
+            width:35px;
+            border:3px solid #ccc;
+            position: absolute;
+            border-radius:50%;
+            // margin: 70px;
+            margin-top: 45px;
+            margin-left: 120px;
+            // padding:20px;
+            transition:0.5s all ease;
+            &:hover{
+                background:red;
+                padding:1px;
+            }
+            .ball2{
+                width:12px;
+                height:12px;
+                background: #000;
+                position: absolute;
+                border-radius:50%;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                margin:auto;
+                transition: 0.5s all ease;
+                &:hover{
+                    background:chartreuse;
+                }
+
+            }
+
+        }
+        .mouth{
+            position: absolute;
+            width:60px;
+            height:10px;
+            // background: #000;
+            border:3px solid #ccc;
+            margin-top: 130px;
+            margin-left: 70px;
+            border-top:none;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            border-left:none;
+            border-right:none;
+            transition:0.5s all ease;
+            &:hover{
+                border:3px solid #ccc;
+                border-bottom:none;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-left:none;
+            border-right:none;
+            }
+           
+        }
+       
+    }
+ 
+
+}
+// @media screen and (max-width:320px){
+//     .face{
+        
+//         // margin-top: 100px;
+//         // top:0;
+//         .head{
+//             // top:0;
+//             // right: 0;
+//             // left: 0;
+//             // bottom: 0;
+//             // margin: auto;
+//             // margin-right: 250px;
+//             // margin-right: 160px;
+//         }
+//     }
+// }
+// @media screen and (max-width:320px){
+//     body{
+//         // width:100%;
+//         // height:100vh;
+//         // display: flex;
+//         // justify-content: center;
+//         // align-items: center;
+//         // margin-top: 40px;
+//         // background:red;
+
+//     }
+// }
